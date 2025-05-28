@@ -14,8 +14,12 @@
 
 <body>
 	<a href="index.html">Please Log In</a>
-	<button type="submit">Log In</button>
-	<input type="submit" value="Log In">
+	<form action="/login" method="post">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <input type="submit" value="Log In">
+</form>
+
 
 
 	<h1>Missing guess parameter</h1>
